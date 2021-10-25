@@ -35,5 +35,4 @@ void draw() {
     ellipse(circle*cos(i), circle*sin(i),3,3);    
     rot=rot+0.00003;
   }
-
 }
