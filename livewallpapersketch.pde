@@ -15,24 +15,24 @@ void draw() {
   translate(width/2, height/2);
   rotate(radians(rot));
 
- ellipseMode(RADIUS);
+  ellipseMode(RADIUS);
   for (int i=0; i<500; i ++) {
     circle= 200 + 120*sin(millis()*freq*i);
-    fill(255,255,255);
+    fill(255, 255, 255);
     noStroke();
-    ellipse(circle*cos(i), circle*sin(i),3,3);    
+    ellipse(circle*cos(i), circle*sin(i), 3, 3);    
     rot=rot+0.00003;
-    
+
     circle= 210 + 120*sin(millis()*freq*i);
-    fill(0,0,255);
+    fill(0, 0, 255);
     noStroke();
-    ellipse(circle*cos(i), circle*sin(i),3,3);    
+    ellipse(circle*cos(i), circle*sin(i), 3, 3);    
     rot=rot+0.00003;
-    
+
     circle= 220 + 120*sin(millis()*freq*i);
-    fill(255,0,0);
+    fill(255, 0, 0);
     noStroke();
-    ellipse(circle*cos(i), circle*sin(i),3,3);    
+    ellipse(circle*cos(i), circle*sin(i), 3, 3);    
     rot=rot+0.00003;
   }
 }
