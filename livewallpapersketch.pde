@@ -21,19 +21,19 @@ void draw() {
     fill(255,255,255);
     noStroke();
     ellipse(circle*cos(i), circle*sin(i),3,3);    
-    rot=rot+0.00005;
+    rot=rot+0.00003;
     
     circle= 210 + 120*sin(millis()*freq*i);
     fill(0,0,255);
     noStroke();
     ellipse(circle*cos(i), circle*sin(i),3,3);    
-    rot=rot+0.00005;
+    rot=rot+0.00003;
     
     circle= 220 + 120*sin(millis()*freq*i);
     fill(255,0,0);
     noStroke();
     ellipse(circle*cos(i), circle*sin(i),3,3);    
-    rot=rot+0.0001*2;
+    rot=rot+0.00003;
   }
 
 }
