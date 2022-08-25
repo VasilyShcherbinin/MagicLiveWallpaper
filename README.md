@@ -1,5 +1,5 @@
 # The Magic Live Wallpaper
-Magic Android/iOS phone live wallpaper, made with Processing. Look in the middle and make your brain freeze.
+Magic Android/iOS phone live wallpaper, made with Processing. Look in the middle and make your brain melt.
 
 Install on Android phone using the following instructions:
 
